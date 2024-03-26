@@ -1,0 +1,13 @@
+.cards {
+  margin: 40px 0;
+}
+
+.cards__heading {
+  margin-bottom: 20px;
+}
+
+.cards__cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}

@@ -1,0 +1,45 @@
+.label {
+  background-color: red;
+  padding: 5px 20px;
+  border-radius: 100px;
+}
+
+.label.label--active {
+  background-color: #02571433;
+  color: #025714;
+}
+
+.label.label--inactive {
+  background-color: #57130233;
+  color: #571302;
+}
+
+.btn {
+  display: inline-block;
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 4px;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.btn-primary {
+  background-color: royalblue;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: crimson;
+  color: #fff;
+}
